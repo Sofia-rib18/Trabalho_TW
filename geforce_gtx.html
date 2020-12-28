@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geforce_gtx</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/Capturar.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#novidades">Novidades</a></li>
+                    <li><a href="products.html">Produtos</a></li>
+                    <li><a href="#contactos">Contactos</a></li>
+                    <li><a href="">Conta</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart2.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>   
+    </div>
+    </div>
+    <!-------single product details---------->
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/msi.png" width="100%">
+            </div>
+            <div class="col-2">
+                <p>Home / Geforce GTX </p>
+                <h1>Geforce GTX 1080 Gaming X 8G</h1>
+                <h4>179.00&euro;</h4>
+                <input type="number" value="1">
+                <a href="" class="btn">Adicionar ao carrinho &#8594;</a>
+                <br>
+                <h3>Product Details </h3>
+                <br>
+                <p>Com GeForce® GTX qualquer um está preparado para jogar. As placas de vídeo GeForce GTX são as mais avançadas já criadas. Com um desempenho sem precedentes, eficiência de energia e experiências de jogo de última geração.<br>As placas de vídeo baseadas em Pascal oferecem desempenho superior e eficiência de energia, construídas com FinFET ultra-rápido e com suporte a recursos DirectX ™ 12 para oferecer as experiências de jogo mais rápidas, suaves e com maior eficiência de energia.</p>
+            
+            </div>
+        </div>
+    </div>
+
+    <!---title------>
+    <br>
+    <br>
+    <br>
+
+    <!----products-->
+    <div class="small-container">
+        <h2 class="title">Outros  Produtos</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/amd_radeon.png">
+                <h4>RADEON RX 560 AERO ITX 4G OC</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>324.90&euro;</p>
+                <a href="radeon.html" class="btn">Ver produto &#8594;</a>
+            </div>
+            <div class="col-4">
+                <img src="images/148466-laptops-feature-new-16-inch-macbook-pro-everything-you-need-to-know-image1-jnvgqliqer.png">
+                <h4>MacBook Pro</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>2500.90&euro;</p>
+                <a href="" class="btn">Ver produto &#8594;</a>
+            </div>
+            <div class="col-4">
+                <img src="images/1595934319_1569300.png">
+                <h4>HP OMEN 25L Desktop Computer</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>1064.74&euro;</p>
+                <a href="" class="btn">Ver produto &#8594;</a>
+            </div>
+                <div class="col-4">
+                    <img src="images/mate-40-_1_.png">
+                    <h4>Huawei Mate 40 Pro</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>799.00&euro;</p>
+                    <a href="" class="btn">Ver produto &#8594;</a>
+                </div>
+        </div>
+   
+    </div>
+    <br>
+    <br>
+    <br>
+    
+    <!------footer-->
+    <div class="footer">
+        <div class="container">
+            <p class="copyright">&copy; Copyright 2020 - all data belongs to techcove</p>
+            <p class="copyright">Techcove.com</p>
+        </div>
+    </div>
+<!---js for toggle menu-->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight== "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+        else
+            {
+                MenuItems.style.maxHeight = "0px"
+            }
+    }
+</script>
+
+</body>
+</html>
