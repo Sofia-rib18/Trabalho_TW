@@ -194,8 +194,8 @@ h6{
 /*----Btn Top---*/
 #btntop{
     position: fixed;
-    bottom: 10px;
-    left: 10px;
+    bottom: 20px;
+    right: 30px;
     height: 50px;
     width: 50px;
     background: #4C49A6;
@@ -206,6 +206,13 @@ h6{
     outline: none;
     cursor: pointer;
     font-size: 24px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color, color;
+}
+#btntop:hover, #btntop:focus{
+    background: #fff;
+    color: #4C49A6; 
 }
 
 #btntop:active{
