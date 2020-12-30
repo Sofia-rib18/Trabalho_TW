@@ -191,7 +191,26 @@ h6{
     display: none;
 }
 
+/*----Btn Top---*/
+#btntop{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    height: 50px;
+    width: 50px;
+    background: #4C49A6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    font-size: 24px;
+}
 
+#btntop:active{
+    background: #351B59;
+}
 
 /*single product details*/
 .single-product{
