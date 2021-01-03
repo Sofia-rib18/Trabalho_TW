@@ -15,45 +15,33 @@
                 <button type="button" class="toggle-btn" onclick="login()">Login</button>
                 <button type="button" class="toggle-btn" onclick="register()">Register</button>
             </div>
+            <!-----------Social icons------------>
             <div class="social-icons">
                 <img src="src/fb.jpg">
                 <img src="src/Insta.jpg">
                 <img src="src/tw.jpg">
             </div>
+            <!------------Login--------------------->
             <form id="login" class="input-group">
-                <input type="text" class="input-field" placeholder="Username" required>
-                <input type="text" class="input-field" placeholder="Password" required>
+                <input type="text" class="input-field" id="login_name" placeholder="Username" required>
+                <input type="text" class="input-field" id="login_password" placeholder="Password" required>
                 <p class="form_text">
                     <a href="#" class="form_link">Forgot your password?</a>
                 </p>
-                <button type="submit" class="submit-btn-login">Login</button>
+                <button type="submit" class="submit-btn-login" onclick="submit_login()">Login</button>
             </form>
+            <!---------------Register--------------->
             <form id="register" class="input-group">
-                <input type="text" class="input-field" placeholder="Username" required>
-                <input type="email" class="input-field" placeholder="Email" required>
-                <input type="text" class="input-field" placeholder="Password" required>
-                <input type="text" class="input-field" placeholder="Confirm Password" required>
-                <button type="submit" class="submit-btn-register">Register</button>
+                <input type="text" class="input-field" id="username" placeholder="Username" required>
+                <input type="email" class="input-field" id="email" placeholder="Email" required>
+                <input type="text" class="input-field" id="password" placeholder="Password" required>
+                <input type="text" class="input-field" id="password2" placeholder="Confirm Password" required>
+                <button type="submit" class="submit-btn-register" onclick="submit_register()">Register</button>
             </form>
         </div>
     </div>
 
-    <script>
-        var x = document.getElementById("login");
-        var y = document.getElementById("register");
-        var z = document.getElementById("btn");
-
-        function register() {
-            x.style.left = "-400px";
-            y.style.left = "50px";
-            z.style.left = "110px";
-        }
-        function login() {
-            x.style.left = "50px";
-            y.style.left = "450px";
-            z.style.left = "0";
-        }
-    </script>
+    <script src="./src/login.js"></script>
 
 </body>
 </html>
