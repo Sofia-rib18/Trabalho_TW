@@ -19,6 +19,11 @@ body{
     padding-left: 10%;
 }
 
+.img-fluid{
+    width: 100%;
+}
+
+
 .navbar{
     padding-top:30px;
     padding-bottom:30px;
@@ -127,6 +132,7 @@ p{
 .small-container{
     max-width: 1080px;
     margin: auto;
+    padding-top: 35px;
     padding-left: 25px;
     padding-right: 25px;
 }
