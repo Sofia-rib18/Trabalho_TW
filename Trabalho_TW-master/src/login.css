@@ -93,6 +93,8 @@
     border: 0;
     outline: none;
     border-radius: 30px;
+    margin-top: 115px;
+    margin-bottom: 25px;
 }
 
 .submit-btn-register{
@@ -130,4 +132,15 @@
 
 #register{
     left: 450px;
+}
+
+.btn1{
+    color: #351B59;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn1:hover{
+    text-decoration: underline;
 }

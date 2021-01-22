@@ -22,30 +22,36 @@
                 <img src="src/tw.jpg">
             </div>
             <!------------Login--------------------->
+            
+                <!--   botao para ir para a pag inicial   -->
+            
             <form id="login" class="input-group">
                 <input type="text" class="input-field" id="login_name" placeholder="Username" required>
-                <input type="text" class="input-field" id="login_password" placeholder="Password" required>
-                <p class="form_text">
-                    <a href="#" class="form_link">Forgot your password?</a>
-                </p>
+                <input type="password" class="input-field" id="login_password" placeholder="Password" required>
                 <button type="submit" class="submit-btn-login" onclick="submit_login()">Login</button>
+                <div class="btn1">
+                    <a href="index.html" style="text-decoration:none" class="btn">Voltar</a>
+                </div>
             </form>
             <!---------------Register--------------->
-            <form id="register" class="input-group">
+
+                <!--   botao para ir para a pag inicial   -->
+            <form id="register" class="input-group" >
                 <input type="text" class="input-field" id="username" placeholder="Username" required>
                 <input type="email" class="input-field" id="email" placeholder="Email" required>
-                <input type="text" class="input-field" id="password" placeholder="Password" required>
-                <input type="text" class="input-field" id="password2" placeholder="Confirm Password" required>
+                <input type="password" class="input-field" id="password" placeholder="Password" required>
+                <input type="password" class="input-field" id="password2" placeholder="Confirm Password" required>
                 <button type="submit" class="submit-btn-register" onclick="submit_register()">Register</button>
+                <div class="btn1">
+                    <a href="index.html" style="text-decoration:none" class="btn">Voltar</a>
+                </div>
             </form>
-        </div>
+            
+        </div>  
     </div>
+    
 
-<<<<<<< HEAD
     <script src="./javascript/login.js"></script>
-=======
-    <script src="./src/login.js"></script>
->>>>>>> 3cfa784771bba958a636315f5fb55b889c072e10
 
 </body>
 </html>
