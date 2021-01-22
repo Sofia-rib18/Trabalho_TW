@@ -4,6 +4,7 @@ nav ul li a{
     color: rgb(255, 255, 255);
     font-family:Arial;
     font-weight:900;
+<<<<<<< HEAD
 }
 
 .col-2{
@@ -41,4 +42,6 @@ nav ul li a{
     line-height: 1.5;
     border: 1px solid #999;
     background: transparent;
+=======
+>>>>>>> 2eca932ef5eee15fc66d26fbcd6ff9d6bb5d3926
 }

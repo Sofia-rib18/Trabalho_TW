@@ -14,8 +14,12 @@ var z = document.getElementById("btn");
         y.style.left = "450px";
         z.style.left = "0";
     }
+<<<<<<< HEAD
 
 
+=======
+    
+>>>>>>> 2eca932ef5eee15fc66d26fbcd6ff9d6bb5d3926
 /*butão register*/
 
 function submit_register(){
@@ -31,7 +35,10 @@ function submit_register(){
     }
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2eca932ef5eee15fc66d26fbcd6ff9d6bb5d3926
 /*butão login*/
 
 function submit_login(){
