@@ -1,0 +1,17 @@
+.scart{
+    text-align: center;
+}
+
+.h2{
+    font-family: 'Poppins', sans-serif;
+    left: 0;
+    right: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto 80px;
+    margin-top: 150px;
+    position: relative;
+    line-height: 60px;
+    color: #1b1a1a;
+}
