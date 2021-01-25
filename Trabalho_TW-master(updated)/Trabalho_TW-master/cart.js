@@ -83,36 +83,37 @@ function displayCart() {  /*função para mostrar os produtos adicionados no car
     let cartItems = localStorage.getItem("productsInCart");
     cartItems = JSON.parse(cartItems);
     let productContainer = document.querySelector(".products");
-    let cartCost = localStorage.get("totalCost");
+    let cartCost = localStorage.getItem("totalCost");
     if (cartItems && productContainer){
         productContainer.innerHtml = "";
         Object.values(cartItems).map(item => {  /*verifica os valores dentro do cartItems*/
-            productContainer.innerHTML += `<div class="product"> 
-                                                <ion-icon name="close-circle"></ion-icon> 
+            productContainer.innerHTML += `<div class="product">  
                                                 <img src="./images/${item.tag}.png"> 
                                                 <span>${item.name}</span>
                                             </div>
-                                            <div class ="price">€${item.price}</div>
+                                            <div class ="price">Preço:€${item.price}</div>
                                             <div class ="quantity>
-                                                <ion-icon class="decrease" name="arrow-dropleft-circle"></ion-icon>
-                                                <span>${item.inCart}</span>
-                                                <ion-icon class="increase" name="arrow-dropright-circle"></ion-icon>
+                                                Quantidade:${item.inCart}
                                             </div>
                                             <div class ="total">
-                                                €${item.inCart * item.price}
+                                                Total:€${item.inCart * item.price}
                                             </div>`
         });
 
         productContainer.innerHTML += `
             <div class = "basketTotalContainer">
                 <h4 class = "basketTotalTitle>
-                    Preço Total
                 </h4>
                 <h4 class ="basketTotal">
-                    €${cartCost}
+                    Preço Total:€${cartCost}
                 </h4>
             `
     }
+}
+
+function shopping(){
+    var shopping_submit = document.getElementById("shopping-btn");
+    shopping_submit.innerHTML = alert("Compra realizada com sucesso");
 }
 
 
