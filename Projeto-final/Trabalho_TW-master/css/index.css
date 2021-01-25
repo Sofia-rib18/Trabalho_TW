@@ -1,0 +1,44 @@
+nav ul li a{
+    text-decoration:none;
+    padding:10px;
+    color: rgb(255, 255, 255);
+    font-family:Arial;
+    font-weight:900;
+}
+
+.col-2{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.col-2 p{
+    font-size: 14px;
+    color: rgb(122, 122, 122);
+}
+
+.col-2 label{
+    color:rgb(31, 31, 31);
+    font-size: 1.05em;
+    font-weight: bold;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    background: transparent;
+}
+
+.textarea{
+    width: 100%;
+    padding: 10px 0;
+    line-height: 1.5;
+    border: 1px solid #999;
+    background: transparent;
+}

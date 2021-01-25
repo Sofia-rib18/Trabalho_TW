@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techcove | Shopping Cart</title>
+    <link rel="icon" href="images/Capturar.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <linkrel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/Capturar.png" width="200px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#novidades">Novidades</a></li>
+                        <li><a href="products.html">Produtos</a></li>
+                        <li><a href="#contactos">Contactos</a></li>
+                        <li><a href="">Conta</a></li>
+                        <li><a href="login.html"><img src="images/user.png" width="30px" height="30px"></a></li>
+                        <li>
+                            <a href="#">
+                                <img src="images/cart2.png" width="30px" height="30px">
+                            </a>
+                            <span>0</span>
+                        </li>
+                    </ul>
+                </nav>
+            </div>   
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+          <img src="images\wp5426686.jpg" class="img-fluid" alt="Banner">
+        </div>
+    </div>
+
+    <div class="products-container">
+        <div class="product-header">
+            <h5 class="product-title">PRODUTO</h5>
+        </div>
+        <div class="products">
+            
+        </div>
+        <button type="submit" class="shopping-cart" onclick="shopping()">Finalizar compra</button>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script src="cart2.js"></script>
+    <script src="cart.js"></script>
+    <script src="cart3.js"></script>
+    <script src="cart4.js"></script>
+    <script src="cart5.js"></script>
+    <script src="cart6.js"></script>
+    <script src="cart7.js"></script>
+</body>
+</html>
+<script>
+
+    window.addEventListener("load", function (event) {
+        let logged = JSON.parse(localStorage.getItem('loggedUser'))
+        if (logged == "") {
+            window.location.href = "/Trabalho_TW-master/login.html ";
+        }
+    })
+
+</script>

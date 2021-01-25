@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F9F4F3;
+}
+
+.img-fluid{
+    height: 300px;
+    width: 100%;
+}
+
+.logo{
+    padding-left: 10%;
+}
+
+.navbar{
+    padding-top:30px;
+    padding-bottom:30px;
+    position:absolute;
+    top:0;
+    width:100%;
+    z-index:1;
+}
+
+nav{
+    float:right;
+    padding-right:10%;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    position: absolute;
+    top: 50px;
+    left: 700px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    padding:10px;
+    color: rgb(255, 255, 255);
+    font-family:Arial;
+    font-weight:900;
+}
+
+nav ul li a:hover{
+    text-decoration:underline;
+    color: #c0546f;
+}
+
+nav ul li a img:hover{
+    color: #c0546f;
+}
+
+a{
+    text-decoration: none;
+    color:#fff ;
+}
+
+span{
+    color: #fff;
+}
+
+.products-container{
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-header{
+    width: 100%;
+    max-width: 150px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 4px solid #351B59;
+    margin: 0 auto;
+}
+
+.product-title{
+    width: 45%;
+}
+
+.price{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quantity{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.total{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #351B59;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product img{
+    width: 100px;
+    height:100px;
+    justify-content: flex-start;
+    margin-left: 5px;
+}
+
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.basketTotalTitle{
+    width: 30%;
+}
+
+.basketTotal{
+    width: 10%;
+}
+
+.products span{
+    color: black;
+    margin-left: 10px;
+}
+
+.shopping-btn{
+    width: 25%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin:auto;
+    background: linear-gradient(to right, #351B59, #c0546f);
+    border:0;
+    outline:none;
+    border-radius:30px;
+    margin-top:25px;
+    margin-bottom: 25px;
+}
